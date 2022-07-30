@@ -1,3 +1,26 @@
+hostname = app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com, m.jd.com, api.m.jd.com, ms.jr.jd.com, m.360buyimg.com, homefront.qunar.com, source.qunarzz.com, client.qunar.com, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, www.google.com, -redirector*.googlevideo.com, *.googlevideo.com, youtubei.googleapis.com, s.youtube.com, youtube.com, www.google.com.hk, business.msstatic.com, a.qiumibao.com,  m.client.10010.com, m*.amap.com
+
+# > 谷歌
+^https?:\/\/.+\.googleapis.com/.+ad_break url reject-img
+^https?:\/\/.+?\.googlevideo\.com\/ptracking\?pltype=adhost url reject-img
+^https?:\/\/.+\.googleapis.com/.+log_event url reject-img
+^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+oad= url reject-img
+^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-img
+^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ url reject-img
+^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
+^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject-img
+^https?:\/\/(www\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=)).* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/surge_contentFarm.js
+# > 油管
+ctier=[A-Z] url 302 ctier=A
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
+
 # > 京东
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
@@ -93,5 +116,30 @@ https://homefront.qunar.com/front/splash/ad url reject
 ^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init url reject
 ^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor url reject-img
 
+# > 虎牙直播
+^https?+:\/\/business\.msstatic\.com\/advertiser\/ url reject-200
+^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject-img
+
 # > 12306
 ^https?:\/\/ad\.12306\.cn\/ url reject
+
+#直播吧，球迷报
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
+^https?:\/\/.+\/allOne\.php\?ad_name - reject
+^https?+:\/\/a\.qiumibao\.com\/activities\/config\.php url reject-200
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php url reject
+
+# > 中国联通
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject-200
+^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) url reject-img
+^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/getclientconfig\.htm url reject-dict
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) url reject-img
+^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js) url reject-img
+^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} url reject-img
+^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= url reject-img
+^https?://m.client.10010.com/uniAdmsInterface/getHomePageAd url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/china_unicom.js
+
+# > 高德地图
+^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject-200
+^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ url reject
+^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ url reject
