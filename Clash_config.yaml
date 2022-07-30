@@ -146,9 +146,6 @@ proxy-groups:
     use:
       - auto
 
-  - name: China
-    <<: *pr
-
 #Google
 
   - name: Google
