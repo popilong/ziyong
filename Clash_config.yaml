@@ -46,13 +46,6 @@ dns:
     nameserver:
         - https://dns.alidns.com/dns-query
         - https://doh.pub/dns-query
-    fallback:
-        - https://dns.adguard.com/dns-query
-        - https://dns.google/dns-query
-        - https://cloudflare-dns.com/dns-query
-    fallback-filter:
-        geoip: true
-        geoip-code: CN
 
 proxies:
 
