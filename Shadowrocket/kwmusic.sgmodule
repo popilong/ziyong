@@ -1,7 +1,6 @@
-#!url=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Shadowrocket.module
+#!url=https://raw.githubusercontent.com/popilong/ziyong/main/Shadowrocket/kwmusic.sgmodule
 #!name=酷我音乐会员
 #!desc=酷我音乐本地会员
-#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/WPSOffice
 
 [URL Rewrite]
 # 解锁酷我音乐会员➕听书
