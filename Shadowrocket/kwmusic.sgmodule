@@ -1,16 +1,15 @@
 #!url=https://raw.githubusercontent.com/popilong/ziyong/main/Shadowrocket/kwmusic.sgmodule
-#!name=酷我音乐会员
-#!desc=酷我音乐本地会员
+#!name=酷我会员Crack
+#!desc=酷我音乐本地会员破解，必须开启小火箭时才生效
 
 [Script]
-
-kwNew = type=http-request,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/kuwovip.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/,max-size=131072,timeout=10,script-update-interval=0,enable=true
-
-kwCrack = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
+kw皮肤vip = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
 kw无损下载 = type=http-response,script-path= https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
-kw皮肤vip = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
+kwCrack = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
+
+kwCrackNew = type=http-request,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/kuwovip.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/,max-size=131072,timeout=10,script-update-interval=0,enable=true
 
 [MITM]
-hostname = musicpay.kuwo.cn,vip1.kuwo.cn
+hostname = musicpay.kuwo.cn,vip1.kuwo.cn,*.lrts.me
