@@ -8,7 +8,7 @@ kwNew = type=http-request,script-path=https://raw.githubusercontent.com/ddgksf20
 
 kwCrack = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
-kw无损下载 = type=http-response,script-path= https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
+kw无损下载（半残废） = type=http-response,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/kuwodl.js,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d$,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
 kw皮肤vip = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
