@@ -3,17 +3,14 @@
 #!desc=酷我音乐本地会员
 
 [Script]
-# 解锁酷我音乐会员➕听书
-kw0 = type=http-response,pattern=^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js,script-update-interval=0
 
-# 解锁酷我音乐会员下载
-kw1 = type=http-request,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,,enable=true
+kwNew = type=http-request,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/kuwovip.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/,max-size=131072,timeout=10,script-update-interval=0,enable=true
 
-#hybz
-kw2 = type=http-response,pattern=^http://vip1.kuwo.cn/vip/enc/user/vip.+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js,script-update-interval=0
+kwCrack = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
-#szzj
-kw3 = type=http-response,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyszzj.js,script-update-interval=0
+kw无损 = type=http-response,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/kuwodl.js,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d$,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
+
+kw皮肤vip = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
 [MITM]
 hostname = *.kuwo.cn
