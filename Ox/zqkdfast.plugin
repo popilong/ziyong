@@ -1,14 +1,6 @@
 [MITM]
 hostname = kandian.wkandian.com, kd.youth.cn, *.youth.cn, ios.baertt.com
 
-https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-
-https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-
-https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-
-https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
-
 [Script]
 # 获取阅读所需数据：配置好此重写规则，进入app阅读文章视频，每个文章视频只抓取首次奖励即可换下一个文章视频（单个文章视频的非首次的奖励可通过脚本循环跑时获得），如果频繁提示达上限，请从最后一次阅读开始算起，间隔一天再去抓数据
 http-request ^https?://ios\.baertt\.com/v5/article/complete script-path=https://raw.githubusercontent.com/ztxtop/x/main/zqread.js , requires-body=1, tag=中青阅读数据
