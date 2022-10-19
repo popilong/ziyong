@@ -1,5 +1,5 @@
 #!name=APTV_Pro
-#!desc=解锁aptv_pro功能
+#!desc=解锁aptv_pro订阅
 
 [Script]
 Watch_tv = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/aptv.js
