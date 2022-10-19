@@ -6,4 +6,4 @@
 hostname = api.revenuecat.com
 
 [Script]
-文件球 = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/fileball.js
+文件球 = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/fileball.js
