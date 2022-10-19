@@ -1,7 +1,8 @@
 #!name=APTV_Pro
+#!dsc=解锁aptv_pro功能
 
 [Script]
-Watch_tv = type=http-response,pattern=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aptv.js
+Watch_tv = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/aptv.js
 
 [MITM]
 hostname = buy.itunes.apple.com
