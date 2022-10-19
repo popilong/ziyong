@@ -1,0 +1,9 @@
+#!name=用药助手-丁香客
+#!desc=解锁“用药助手”高级版订阅
+
+
+[MITM]
+hostname = newdrugs.dxy.cn
+
+[Script]
+用药助手 = type=http-response,pattern=^https:\/\/newdrugs\.dxy\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/yyzs.js
