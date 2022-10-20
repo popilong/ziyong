@@ -11,7 +11,7 @@ if (url.indexOf(tmp2) != -1) {
 	var body = $response.body.replace(/premium": false/g, 'premium": true');
 }
 if (url.indexOf(tmp3) != -1) {
-	obj={"success":true,"message":"1896165182","isReceiptValid":true,"isSubscriptionActive":true};
+	obj={"success":true,"message":"1896165181","isReceiptValid":true,"isSubscriptionActive":true};
 	body = JSON.stringify(obj);
 }
 $done({body});
