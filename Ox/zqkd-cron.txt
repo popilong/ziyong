@@ -1,8 +1,0 @@
-# 中青阅读
-# 8/30 * 1-6 * * * https://raw.githubusercontent.com/ztxtop/x/main/zqread.js, tag=中青阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
-
-# 中青签到、包厢
-# 15/30 * * * * https://raw.githubusercontent.com/ztxtop/x/main/youth.js, tag=中青签到、宝箱, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
-
-# 中青看看转
-# 30 6 * * * https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js, tag=中青看看赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
