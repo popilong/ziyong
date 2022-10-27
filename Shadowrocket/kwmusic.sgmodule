@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/popilong/ziyong/main/Shadowrocket/kwmusic.sgmodule
-#!name=酷我会员Crack
-#!desc=酷我音乐本地会员破解，必须开启小火箭时才生效
+#!name=酷我会员
+#!desc=None
 
 [Script]
 kw皮肤vip = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true
