@@ -1,0 +1,9 @@
+#!name=扫面全能王
+#!desc=黄金会员
+
+
+[MITM]
+hostname = ap*.intsig.net
+
+[Script]
+扫描全能王 = type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,max-size=131072,requires-body=true,timeout=10,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/smqnw.js
