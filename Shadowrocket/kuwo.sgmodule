@@ -5,4 +5,4 @@
 hostname = %APPEND% *.kuwo.cn, *.lrts.me
 
 [Script]
-扫描全能王=type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1, script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/kwyy.js
+kuwomisic=type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1, script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/kwyy.js
