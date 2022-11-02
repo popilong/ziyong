@@ -1,6 +1,7 @@
 #!name=扫描全能王
 #!desc=GOLDEN会员
-
+#!author=NobyDa
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/cs.png
 
 [MITM]
 hostname = %APPEND% ap*.intsig.net
