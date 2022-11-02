@@ -1,8 +1,8 @@
-#!name=酷我会员
-#!desc=kuwo_SVIP
-
-[Script]
-kwCrack = type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/kwyy.js,script-update-interval=0
+#!name=kuwo
+#!desc=svip
 
 [MITM]
-hostname = musicpay.kuwo.cn,vip1.kuwo.cn,*.lrts.me
+hostname = %APPEND% *.kuwo.cn, *.lrts.me
+
+[Script]
+扫描全能王=type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1, script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/kwyy.js
