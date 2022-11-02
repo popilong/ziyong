@@ -1,0 +1,8 @@
+#!name=酷我会员
+#!desc=kuwo_SVIP
+
+[Script]
+kwCrack = type=type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,max-size=0,requires-body=1,timeout=10,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/scripts/kwyy.js
+
+[MITM]
+hostname = musicpay.kuwo.cn,vip1.kuwo.cn,*.lrts.me
