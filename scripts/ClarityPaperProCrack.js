@@ -1,24 +1,3 @@
-/******************************
-
-脚本功能：克拉壁纸解锁订阅
-软件版本：7.5.0
-下载地址：http://t.cn/AimD5JPZ
-脚本作者：Hausd0rff
-更新时间：2022-10-28
-电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_777
-使用声明：⚠️仅供学习交流，🈲️商业用途
-
-*******************************
-
-[rewrite_local]
-# > 克拉壁纸解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
-[mitm] 
-hostname = buy.itunes.apple.com
-
-*******************************/
-
 var objc = JSON.parse($response.body);
 
 objc = {
