@@ -1,3 +1,10 @@
+/******************************
+
+脚本功能：Proknockout扣图神器+解锁VIP
+
+*******************************/
+
+
 var objc = JSON.parse($response.body);
 
     objc = 
