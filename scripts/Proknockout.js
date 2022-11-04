@@ -1,10 +1,3 @@
-/******************************
-
-app：Proknockout
-
-*******************************/
-
-
 var objc = JSON.parse($response.body);
 
     objc = 
