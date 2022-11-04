@@ -1,0 +1,9 @@
+#!name=B612
+#!desc=VIP
+
+
+[MITM]
+hostname = user-kaji-api.b612kaji.com
+
+[Script]
+B612 = type=http-response,pattern=^https:\/\/user-kaji-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status,max-size=0,requires-body=1,timeout=10,https://raw.githubusercontent.com/popilong/ziyong/main/scripts/b612.js
