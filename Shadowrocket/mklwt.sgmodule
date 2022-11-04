@@ -1,0 +1,9 @@
+#!name=马卡龙玩图
+#!desc=VIP
+
+
+[MITM]
+hostname = app.api.versa-ai.com
+
+[Script]
+马卡龙玩图 = type=http-response,pattern=https://app.api.versa-ai.com/pay/order/iap/check,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mklwt.js
