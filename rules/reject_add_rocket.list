@@ -19,3 +19,6 @@ DOMAIN-KEYWORD, umeng
 DOMAIN,goblin.hupu.com
 DOMAIN,adx-api.hupu.com
 DOMAIN,adx.hupu.com
+URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
+URL-REGEX,^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init
+URL-REGEX,^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/
