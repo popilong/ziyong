@@ -1,0 +1,8 @@
+#!name=Unlock Any Buy Apple
+#!desc=Unlock Beer, in short, fabulous, ShadowLink, ..
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
+
+[Script]
+Buy = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/popilong/ziyong/main/Shadowrocket/scripts/revenuecat_verify_receipt.js,script-update-interval=-1
