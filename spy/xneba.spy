@@ -1,6 +1,6 @@
 js_config:
 - Container:
-  - - 1
+  - []
   Env: jd_wxCartKoi_activityId
   KeyWord:
   - - jd_wxCartKoi_activityId
@@ -9,7 +9,7 @@ js_config:
   TimeOut: 0
   Wait: 5
 - Container:
-  - - 1
+  - []
   Env: WXGAME_ACT_ID
   KeyWord:
   - - WXGAME_ACT_ID
@@ -18,7 +18,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxFansInterActionActivity_activityId
   KeyWord:
   - - jd_wxFansInterActionActivity_activityId
@@ -27,7 +27,7 @@ js_config:
   TimeOut: 0
   Wait: 10
 - Container:
-  - - 1
+  - []
   Env: jd_wxSecond_activityId
   KeyWord:
   - - jd_wxSecond_activityId
@@ -36,7 +36,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: computer_activityId
   KeyWord:
   - - computer_activityId
@@ -46,7 +46,7 @@ js_config:
   TimeOut: 0
   Wait: 5
 - Container:
-  - - 1
+  - []
   Env: jd_fxyl_activityId
   KeyWord:
   - - jd_fxyl_activityId
@@ -55,7 +55,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_wxKnowledgeActivity_activityId
   KeyWord:
   - - jd_cjwxKnowledgeActivity_activityId
@@ -67,7 +67,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_wxKnowledgeActivity_activityId
   KeyWord:
   - - jd_lzkj_wxKnowledgeActivity_activityId
@@ -79,7 +79,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_activityId
   KeyWord:
   - - jd_cjhy_activityId
@@ -88,7 +88,7 @@ js_config:
   TimeOut: 0
   Wait: 5
 - Container:
-  - - 1
+  - []
   Env: jd_zdjr_activityId
   KeyWord:
   - - jd_zdjr_activityId
@@ -97,7 +97,7 @@ js_config:
   TimeOut: 0
   Wait: 5
 - Container:
-  - - 1
+  - []
   Env: PKC_TXGZYL
   KeyWord:
   - - PKC_TXGZYL
@@ -106,7 +106,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: PKC_GZYL
   KeyWord:
   - - PKC_GZYL
@@ -115,7 +115,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_wxCollectionActivityId
   KeyWord:
   - - jd_cjhy_wxCollectionActivityId
@@ -126,7 +126,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_wxCollectionActivityId
   KeyWord:
   - - jd_lzkj_wxCollectionActivityId
@@ -137,7 +137,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
@@ -146,7 +146,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxShopFollowActivity_activityId
   KeyWord:
   - - jd_wxShopFollowActivity_activityId
@@ -157,7 +157,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_mhurlLis
   KeyWord:
   - - jd_mhurlLis
@@ -166,7 +166,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_nzmhurl
   KeyWord:
   - - jd_nzmhurl
@@ -175,7 +175,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: DPLHTY
   KeyWord:
   - - DPLHTY
@@ -184,7 +184,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: VENDER_ID
   KeyWord:
   - - VENDER_ID
@@ -193,7 +193,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wdz_activityId
   KeyWord:
   - - jd_wdz_activityId
@@ -202,7 +202,7 @@ js_config:
   TimeOut: 0
   Wait: 10
 - Container:
-  - - 1
+  - []
   Env: JD_JOYOPEN
   KeyWord:
   - - JD_JOYOPEN
@@ -211,7 +211,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wdz_openLuckBag_activityId
   KeyWord:
   - - jd_wdz_openLuckBag_activityId
@@ -220,7 +220,7 @@ js_config:
   TimeOut: 0
   Wait: 5
 - Container:
-  - - 1
+  - []
   Env: DPQDTK
   KeyWord:
   - - DPQDTK
@@ -229,7 +229,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Disable: 0
   Env: M_WX_LUCK_DRAW_URL
   KeyWord:
@@ -240,7 +240,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Disable: 0
   Env: M_WX_ADD_CART_URL
   KeyWord:
@@ -251,7 +251,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Disable: 0
   Env: M_WX_COLLECT_CARD_URL
   KeyWord:
@@ -262,7 +262,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Disable: 0
   Env: M_WX_CENTER_DRAW_URL
   KeyWord:
@@ -273,7 +273,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Disable: 0
   Env: M_FAV_SHOP_ARGV
   KeyWord:
@@ -284,7 +284,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Disable: 0
   Env: M_FOLLOW_SHOP_ARGV
   KeyWord:
@@ -295,7 +295,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: M_WX_SHOP_GIFT_URL
   KeyWord:
   - - M_WX_SHOP_GIFT_URL
@@ -305,7 +305,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: M_WX_FOLLOW_DRAW_URL
   KeyWord:
   - - M_WX_FOLLOW_DRAW_URL
@@ -315,7 +315,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: M_WX_BUILD_DRAW_URL
   KeyWord:
   - - M_WX_BUILD_DRAW_URL
@@ -325,7 +325,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jinggengInviteJoin
   KeyWord:
   - - jinggengInviteJoin
@@ -334,7 +334,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_inv_authorCode
   KeyWord:
   - - jd_inv_authorCode
@@ -344,7 +344,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxShopGiftId
   KeyWord:
   - - jd_wxShopGiftId
@@ -353,7 +353,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_joinCommonId
   KeyWord:
   - - jd_joinCommonId
@@ -362,7 +362,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_shopLeagueId
   KeyWord:
   - - jd_shopLeagueId
@@ -371,7 +371,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_shopCollectGiftId
   KeyWord:
   - - jd_shopCollectGiftId
@@ -380,7 +380,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wdz_activityId
   KeyWord:
   - - jd_wdz_activityId
@@ -389,7 +389,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxCompleteInfoId
   KeyWord:
   - - jd_wxCompleteInfoId
@@ -398,7 +398,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: M_WX_WDZ_ID
   KeyWord:
   - - M_WX_WDZ_ID
@@ -407,7 +407,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: M_WX_SECOND_DRAW_URL
   KeyWord:
   - - M_WX_SECOND_DRAW_URL
@@ -416,7 +416,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxBirthGiftsId
   KeyWord:
   - - jd_wxBirthGiftsId
@@ -425,7 +425,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_wxBuildActivity_activityId
   KeyWord:
   - - jd_lzkj_wxBuildActivity_activityId
@@ -435,7 +435,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: JD_Lottery
   KeyWord:
   - - JD_Lottery
@@ -444,7 +444,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: VENDER_ID
   KeyWord:
   - - VENDER_ID
@@ -453,7 +453,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: whx_drawShopGift
   KeyWord:
   - - whx_drawShopGift
@@ -462,7 +462,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: prodevactCode
   KeyWord:
   - - prodevactCode
@@ -471,7 +471,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_sevenDay_ids
   KeyWord:
   - - jd_cjhy_sevenDay_ids
@@ -480,7 +480,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: cjhy_signActivity_ids
   KeyWord:
   - - cjhy_signActivity_ids
@@ -489,7 +489,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_sevenDay_ids
   KeyWord:
   - - jd_lzkj_sevenDay_ids
@@ -498,7 +498,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_signActivity2_ids
   KeyWord:
   - - jd_lzkj_signActivity2_ids
@@ -507,7 +507,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_daily_ids
   KeyWord:
   - - jd_cjhy_daily_ids
@@ -516,7 +516,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_daily_ids
   KeyWord:
   - - jd_lzkj_daily_ids
@@ -525,7 +525,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_wxGameActivity_activityId
   KeyWord:
   - - jd_cjhy_wxGameActivity_activityId
@@ -534,7 +534,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_wxShopFollowActivity_activityId
   KeyWord:
   - - jd_cjhy_wxShopFollowActivity_activityId
@@ -545,7 +545,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_wxShopFollowActivity_activityId
   KeyWord:
   - - jd_lzkj_wxShopFollowActivity_activityId
@@ -556,7 +556,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_cjhy_wxShopGift_ids
   KeyWord:
   - - jd_cjhy_wxShopGift_ids
@@ -567,7 +567,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_wxShopGift_ids
   KeyWord:
   - - jd_lzkj_wxShopGift_ids
@@ -578,7 +578,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: LUCK_DRAW_URL
   KeyWord:
   - - LUCK_DRAW_URL
@@ -587,7 +587,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_txzj_lottery_id
   KeyWord:
   - - jd_txzj_lottery_id
@@ -596,7 +596,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_drawCenter_activityId
   KeyWord:
   - - jd_drawCenter_activityId
@@ -605,7 +605,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_txzj_sign_in_id
   KeyWord:
   - - jd_txzj_sign_in_id
@@ -614,7 +614,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_wxFansInterActionActivity_activityId
   KeyWord:
   - - jd_wxFansInterActionActivity_activityId
@@ -623,7 +623,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_txzj_collect_item_id
   KeyWord:
   - - jd_txzj_collect_item_id
@@ -632,7 +632,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkjInteractId
   KeyWord:
   - - jd_lzkjInteractId
@@ -641,7 +641,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_lzkj_interactsaas_yqrhyl_activityId
   KeyWord:
   - - jd_lzkj_interactsaas_yqrhyl_activityId
@@ -650,7 +650,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_shop_draw_ids
   KeyWord:
   - - jd_shop_draw_ids
@@ -659,7 +659,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: jd_shopGifts_ids
   KeyWord:
   - - jd_shopGifts_ids
@@ -668,7 +668,7 @@ js_config:
   TimeOut: 0
   Wait: 2
 - Container:
-  - - 1
+  - []
   Env: DPCJID
   KeyWord:
   - - DPCJID
@@ -677,7 +677,7 @@ js_config:
   TimeOut: 0
   Wait: 3
 - Container:
-  - - 1
+  - []
   Env: jd_shopFollowGiftId
   KeyWord:
   - - jd_shopFollowGiftId
@@ -686,7 +686,7 @@ js_config:
   TimeOut: 0
   Wait: 3
 - Container:
-  - - 1
+  - []
   Env: jd_lzkjInteractId
   KeyWord:
   - - jd_lzkjInteractId
@@ -695,7 +695,7 @@ js_config:
   TimeOut: 0
   Wait: 3
 - Container:
-  - - 1
+  - []
   Env: jd_inv_authorCode
   KeyWord:
   - - jd_inv_authorCode
