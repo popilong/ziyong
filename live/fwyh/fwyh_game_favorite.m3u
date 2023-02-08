@@ -1,59 +1,59 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="旭旭" group-title="端游", 旭旭
+#EXTINF:-1 tvg-name="旭旭" group-title="跑跑端游", 旭旭
 http://121.36.35.255:8686/douyu/99999
-#EXTINF:-1 tvg-name="跑跑老污龟" group-title="端游", 跑跑老污龟
+#EXTINF:-1 tvg-name="跑跑老污龟" group-title="跑跑端游", 跑跑老污龟
 http://121.36.35.255:8686/douyu/5592288
-#EXTINF:-1 tvg-name="清浅" group-title="手游斗鱼", 清浅
+#EXTINF:-1 tvg-name="清浅" group-title="跑跑手游-斗鱼", 清浅
 http://121.36.35.255:8686/douyu/9200778
-#EXTINF:-1 tvg-name="落叶" group-title="手游斗鱼", 落叶
+#EXTINF:-1 tvg-name="落叶" group-title="跑跑手游-斗鱼", 落叶
 http://121.36.35.255:8686/douyu/7433259
-#EXTINF:-1 tvg-name="阿鑫" group-title="手游虎牙", 阿鑫
+#EXTINF:-1 tvg-name="阿鑫" group-title="跑跑手游-虎牙", 阿鑫
 http://121.36.35.255:8686/huya/980828
-#EXTINF:-1 tvg-name="主演" group-title="手游斗鱼", 主演
+#EXTINF:-1 tvg-name="主演" group-title="跑跑手游-斗鱼", 主演
 http://121.36.35.255:8686/douyu/2362323
-#EXTINF:-1 tvg-name="小蝌蚪" group-title="端游", 小蝌蚪
+#EXTINF:-1 tvg-name="小蝌蚪" group-title="跑跑端游", 小蝌蚪
 http://121.36.35.255:8686/douyu/5442511
-#EXTINF:-1 tvg-name="SSS" group-title="端游", SSS
+#EXTINF:-1 tvg-name="SSS" group-title="跑跑端游", SSS
 http://121.36.35.255:8686/douyu/86888
-#EXTINF:-1 tvg-name="放纵" group-title="端游", 放纵
+#EXTINF:-1 tvg-name="放纵" group-title="跑跑端游", 放纵
 http://121.36.35.255:8686/douyu/7500119
-#EXTINF:-1 tvg-name="XX" group-title="端游", XX
+#EXTINF:-1 tvg-name="XX" group-title="跑跑端游", XX
 http://121.36.35.255:8686/douyu/5574973
-#EXTINF:-1 tvg-name="小牧" group-title="端游", 小牧
+#EXTINF:-1 tvg-name="小牧" group-title="跑跑端游", 小牧
 http://121.36.35.255:8686/douyu/5579534
-#EXTINF:-1 tvg-name="小寒" group-title="端游", 小寒
+#EXTINF:-1 tvg-name="小寒" group-title="跑跑端游", 小寒
 http://121.36.35.255:8686/douyu/5586391
-#EXTINF:-1 tvg-name="麟涛" group-title="端游", 麟涛
+#EXTINF:-1 tvg-name="麟涛" group-title="跑跑端游", 麟涛
 http://121.36.35.255:8686/douyu/5592545
-#EXTINF:-1 tvg-name="像风" group-title="手游斗鱼", 像风
+#EXTINF:-1 tvg-name="像风" group-title="跑跑手游-斗鱼", 像风
 http://121.36.35.255:8686/douyu/8826359
-#EXTINF:-1 tvg-name="破烂" group-title="手游斗鱼", 破烂
+#EXTINF:-1 tvg-name="破烂" group-title="跑跑手游-斗鱼", 破烂
 http://121.36.35.255:8686/douyu/10063616
-#EXTINF:-1 tvg-name="绝杀" group-title="手游斗鱼", 绝杀
+#EXTINF:-1 tvg-name="绝杀" group-title="跑跑手游-斗鱼", 绝杀
 http://121.36.35.255:8686/douyu/6344069
-#EXTINF:-1 tvg-name="绵绵" group-title="手游斗鱼", 绵绵
+#EXTINF:-1 tvg-name="绵绵" group-title="跑跑手游-斗鱼", 绵绵
 http://121.36.35.255:8686/douyu/8411343
-#EXTINF:-1 tvg-name="x8" group-title="端游", x8
+#EXTINF:-1 tvg-name="x8" group-title="跑跑端游", x8
 http://121.36.35.255:8686/douyu/5577700
-#EXTINF:-1 tvg-name="天王星" group-title="手游斗鱼", 天王星
+#EXTINF:-1 tvg-name="天王星" group-title="跑跑手游-斗鱼", 天王星
 http://121.36.35.255:8686/douyu/6515547
-#EXTINF:-1 tvg-name="智宸" group-title="手游虎牙", 智宸
+#EXTINF:-1 tvg-name="智宸" group-title="跑跑手游-虎牙", 智宸
 http://121.36.35.255:8686/huya/21581654
-#EXTINF:-1 tvg-name="绫小路" group-title="手游虎牙", 绫小路
+#EXTINF:-1 tvg-name="绫小路" group-title="跑跑手游-虎牙", 绫小路
 http://121.36.35.255:8686/huya/157100
-#EXTINF:-1 tvg-name="绿皮怪" group-title="手游虎牙", 绿皮怪
+#EXTINF:-1 tvg-name="绿皮怪" group-title="跑跑手游-虎牙", 绿皮怪
 http://121.36.35.255:8686/huya/10038814
-#EXTINF:-1 tvg-name="小爱" group-title="手游虎牙", 小爱
+#EXTINF:-1 tvg-name="小爱" group-title="跑跑手游-虎牙", 小爱
 http://121.36.35.255:8686/huya/23539672
-#EXTINF:-1 tvg-name="7总" group-title="手游斗鱼", 7总
+#EXTINF:-1 tvg-name="7总" group-title="跑跑手游-斗鱼", 7总
 http://121.36.35.255:8686/douyu/11012183
-#EXTINF:-1 tvg-name="xiaoeba" group-title="手游斗鱼", xiaoeba
+#EXTINF:-1 tvg-name="xiaoeba" group-title="跑跑手游-斗鱼", xiaoeba
 http://121.36.35.255:8686/douyu/7265771
-#EXTINF:-1 tvg-name="随风" group-title="手游斗鱼", 随风
+#EXTINF:-1 tvg-name="随风" group-title="跑跑手游-斗鱼", 随风
 http://121.36.35.255:8686/douyu/7906328
-#EXTINF:-1 tvg-name="西四环小哥" group-title="手游斗鱼", 西四环小哥
+#EXTINF:-1 tvg-name="西四环小哥" group-title="跑跑手游-斗鱼", 西四环小哥
 http://121.36.35.255:8686/douyu/10293625
-#EXTINF:-1 tvg-name="手游官方直播间" group-title="手游斗鱼", 手游官方直播间
+#EXTINF:-1 tvg-name="手游官方直播间" group-title="跑跑手游-斗鱼", 手游官方直播间
 http://121.36.35.255:8686/douyu/6672862
 
 #EXTINF:-1 tvg-name="淙源生态龟鳖" group-title="抖音", 淙源生态龟鳖
@@ -62,6 +62,22 @@ http://121.36.35.255:8686/douyin?url=https://v.douyin.com/W15157230839
 http://121.36.35.255:8686/douyin?url=https://v.douyin.com/6182390
 #EXTINF:-1 tvg-name="世纪威锋科技" group-title="抖音", 世纪威锋科技
 http://121.36.35.255:8686/douyin?url=https://v.douyin.com/weifeng666.
+#EXTINF:-1 tvg-name="颜老虎" group-title="抖音", 颜老虎
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/y341712590
+#EXTINF:-1 tvg-name="张兰.俏生活" group-title="抖音", 张兰.俏生活
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/Zhanglan008
+#EXTINF:-1 tvg-name="吴小欺" group-title="抖音", 吴小欺
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/wuxiaoqi7707
+#EXTINF:-1 tvg-name="老男孩食堂" group-title="抖音", 老男孩食堂
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/69635470462
+#EXTINF:-1 tvg-name="莉姐连线" group-title="抖音", 莉姐连线
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/sisteronline
+#EXTINF:-1 tvg-name="打假先生" group-title="抖音", 打假先生
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/jiuzhengge
+#EXTINF:-1 tvg-name="打假先生" group-title="抖音", 打假先生
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/jiuzhengge
+#EXTINF:-1 tvg-name="湖北日报" group-title="抖音", 湖北日报
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/hubeidaily
 
 #EXTINF:-1 tvg-name="橘子泡泡糖水" group-title="其他", 橘子泡泡糖水
 http://121.36.35.255:8686/douyu/6191321
