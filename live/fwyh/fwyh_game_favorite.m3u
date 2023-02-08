@@ -56,5 +56,12 @@ http://121.36.35.255:8686/douyu/10293625
 #EXTINF:-1 tvg-name="手游官方直播间" group-title="手游斗鱼", 手游官方直播间
 http://121.36.35.255:8686/douyu/6672862
 
+#EXTINF:-1 tvg-name="淙源生态龟鳖" group-title="抖音", 淙源生态龟鳖
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/W15157230839
+#EXTINF:-1 tvg-name="小杨哥" group-title="抖音", 小杨哥
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/6182390
+#EXTINF:-1 tvg-name="世纪威锋科技" group-title="抖音", 世纪威锋科技
+http://121.36.35.255:8686/douyin?url=https://v.douyin.com/weifeng666.
+
 #EXTINF:-1 tvg-name="橘子泡泡糖水" group-title="其他", 橘子泡泡糖水
 http://121.36.35.255:8686/douyu/6191321
