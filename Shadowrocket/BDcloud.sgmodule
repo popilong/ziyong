@@ -1,9 +1,9 @@
-#!name=百度cloud
-#!desc=none
+#!name=BaiduCloud
+#!desc=BaiduCloud Crack
 
 
 [MITM]
 hostname = pan.baidu.com
 
 [Script]
-百度cloud = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
+BaiduCloud = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
