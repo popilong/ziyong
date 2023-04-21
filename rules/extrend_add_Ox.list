@@ -13,16 +13,6 @@ host, adashx.ut.ele.me, reject
 host, tpc.googlesyndication.com, reject
 host, googleads.g.doubleclick.net, reject
 host, app-measurement.com, reject
-host, api.mudvod.tv, proxy
-host-suffix, boxjs.net, proxy
-host-suffix, boxjs.com, proxy
-host-suffix, rocketgirls.space, proxy
-host, in.appcenter.ms, direct
-host-suffix, speedtest.net, proxy
-host-suffix, fast.com, proxy
 host-suffix, applvn.com, reject
 host-suffix, applovin.com, reject
-host, s.mzstatic.com, proxy
-host-suffix, testfight.apple.com, proxy
-host-suffix, pwlt.me, proxy
 host-keyword, umeng, reject
