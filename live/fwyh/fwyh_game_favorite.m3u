@@ -55,6 +55,8 @@ http://121.36.35.255:8686/douyu/7906328
 http://121.36.35.255:8686/douyu/10293625
 #EXTINF:-1 tvg-name="手游官方直播间" group-title="跑跑手游-斗鱼", 手游官方直播间
 http://121.36.35.255:8686/douyu/6672862
+#EXTINF:-1 tvg-name="张坤解说三国杀" group-title="三国杀-虎牙", 张坤解说三国杀
+http://121.36.35.255:8686/huya/630964
 
 #EXTINF:-1 tvg-name="淙源生态龟鳖" group-title="抖音", 淙源生态龟鳖
 http://121.36.35.255:8686/douyin/uSDP
