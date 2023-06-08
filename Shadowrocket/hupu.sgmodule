@@ -1,21 +1,15 @@
-#!url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Shadowrocket/AdvertisingLite/AdvertisingLite.sgmodule
-#!name=AdvertisingLite
-#!desc=最后更新时间 2023-06-06 02:16:07
-#!author=blackmatrix7
-#!repo=https://github.com/blackmatrix7/ios_rule_script
-#!reject=504
-#!mitm=419
-#!total=923
+#!name=hupu
+#!desc=hupu
 
 [General]
 force-http-engine-hosts = %APPEND% du.hupucdn.com,games.mobileapi.hupu.com
 
 [URL Rewrite]
 # > 虎扑
-^https?:\/\/du\.hupucdn\.com\/\w+h\d{4} url reject-img
-^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ url reject
-^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
-^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init url reject
-^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ url reject
-^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init url reject
-^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor url reject-img
+^https?:\/\/du\.hupucdn\.com\/\w+h\d{4} - reject-img
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. - reject-img
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor - reject-img
