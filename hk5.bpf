@@ -42,13 +42,6 @@
     }
   ],
   "outbounds": [
-{
-      "type": "shadowsocks",
-      "tag": "proxy",
-      "server": "183.232.112.43",
-      "server_port": 37295,
-      "method": "aes-256-gcm",
-      "password": "5984d13b-6b8e-4855-bd9f-f1fa362a7c73"
     },
     {
       "type": "direct",
