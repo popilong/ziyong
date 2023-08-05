@@ -1,0 +1,313 @@
+# ⚠️本配置仅适用于Clash Premium 2023.4.13及以上版本内核，Stash不能使用本配置⚠️
+
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: true
+external-controller: 127.0.0.1:9090
+# 按照文字提示替换下面的“订阅链接”即可
+proxy-providers:
+  All:
+    type: http
+    url: "此处填写机场订阅链接"
+    # 直接填入Clash类型订阅链接，替换上方""内的内容
+    interval: 86400
+    path: ./all.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+      
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+proxies:
+            
+proxy-groups:
+  - name: 手动切换
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+    use:
+      - All
+    proxies:
+      - 自动选择
+      - 故障转移
+
+  - name: 自动选择
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+    use: 
+       - All
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    
+  - name: 故障转移
+    type: fallback
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bypass.png
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use: 
+       - All
+       
+  - name: 国外网站
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+    proxies: &G
+      - 手动切换
+      - 自动选择
+      - 故障转移
+      - 香港节点
+      - 日本节点
+      - 新加坡节点
+      - 美国节点
+      - 台湾节点
+
+  - name: 国内网站
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
+    proxies: &C
+      - DIRECT
+      - 手动切换
+      - 自动选择
+      - 故障转移
+      - 香港节点
+      - 日本节点
+      - 新加坡节点
+      - 美国节点
+      - 台湾节点
+      
+  - name: YouTube
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+    proxies:
+      *G
+
+  - name: NETFLIX
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+    proxies:
+      *G
+
+  - name: Telegram
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+    proxies:
+      *G
+
+  - name: OpenAI
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cat.png
+    proxies:
+      *G
+
+  - name: Spotify
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+    proxies:
+      *G
+
+  - name: Apple
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+    proxies:
+      *C
+
+  - name: Microsoft
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+    proxies:
+      *G
+
+  - name: Google
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png
+    proxies:
+      *G
+
+  - name: 哔哩哔哩
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png
+    proxies:
+      *C
+      
+  - name: 漏网之鱼
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    proxies:
+      *G
+
+  - name: 香港节点
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    use:
+      - All
+    filter: 港|🇭🇰|HK|(?i)Hong
+      
+  - name: 日本节点
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    use:
+      - All
+    filter: 日|东京|🇯🇵|JP|(?i)Japan
+     
+  - name: 台湾节点
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+    use:
+      - All
+    filter: 台|🇨🇳|🇹🇼|TW|(?i)Taiwan
+
+  - name: 新加坡节点
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    use:
+      - All
+    filter: 新|新加坡|SG|(?i)Singapore
+
+  - name: 美国节点
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+    use:
+      - All
+    filter: 美|洛杉矶|🇺🇸|US|(?i)States|American
+    
+rule-providers:
+        
+  YouTube:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list"
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+
+  Netflix:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+
+  Spotify:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
+    
+  Apple:
+    type: http
+    behavior: domain
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.txt"
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
+  Google:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list"
+    path: ./ruleset/Google.yaml
+    interval: 86400
+
+  BiliBili:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list"
+    path: ./ruleset/BiliBili.yaml
+    interval: 86400
+
+  OpenAI:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list"
+    path: ./ruleset/OpenAI.yaml
+    interval: 86400
+
+  OtherProxy:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Clash/Rule/OtherProxy.txt"
+    path: ./ruleset/OtherProxy.yaml
+    interval: 86400
+
+  China:
+    type: http
+    behavior: domain
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain.txt"
+    path: ./ruleset/China.yaml
+    interval: 86400
+
+  Global:
+    type: http
+    behavior: domain
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.txt"
+    path: ./ruleset/Global-Domain.yaml
+    interval: 86400
+    
+rules:
+  - RULE-SET,YouTube,YouTube,no-resolve
+  - RULE-SET,Netflix,NETFLIX,no-resolve
+  - RULE-SET,Telegram,Telegram,no-resolve
+  - RULE-SET,Spotify,Spotify,no-resolve
+  - RULE-SET,OpenAI,OpenAI,no-resolve
+  - RULE-SET,Apple,Apple,no-resolve
+  - RULE-SET,Microsoft,Microsoft,no-resolve
+  - RULE-SET,Google,Google,no-resolve
+  - RULE-SET,BiliBili,哔哩哔哩,no-resolve
+  - RULE-SET,OtherProxy,国外网站,no-resolve
+  - RULE-SET,Global,国外网站,no-resolve
+  - RULE-SET,China,国内网站,no-resolve
+  - GEOIP,Lan,DIRECT,no-resolve
+  - GEOIP,CN,国内网站,no-resolve
+  - MATCH,漏网之鱼
